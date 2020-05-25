@@ -43,24 +43,26 @@ public class InicioSesion extends HttpServlet {
 		 // Persona p=em.find(Persona.class, 1);
 		String correo = request.getParameter("correo");
 		String contrasena = request.getParameter("contrasena");
-		us.getCorreo();
+		
 		
 		us=shoppingBasketDAO.inicio(correo, contrasena);
-	
-		String cedula=us.getCedula();
-        System.out.println(cedula);
+	    
+		
+        
 		try {
 			if(us !=null) {
-		    request.getSession().setAttribute("correo", cedula);
-		    
-		    
+		     String cedula=us.getCedula();
+		      System.out.println(cedula);
+			request.getSession().setAttribute("correo", cedula);
+		    session.setAttribute("correo", cedula);
+				    
 			request.getSession().setAttribute("contrasena", contrasena);
-			
-			
+			session.setAttribute("contrasena", contrasena);
+					
 			session.setAttribute("variableSession", cedula);
 			
 			response.sendRedirect(request.getContextPath() + "/JSPs/IniciadoSesion.jsp?correo=" + cedula);
-			//request.getRequestDispatcher("/JSPs/IniciadoSesion.jsp").forward(request,  response);
+		
 		}else {
 			response.sendRedirect(request.getContextPath() + "/JSPs/cuenta.jsp");
 			
@@ -70,7 +72,6 @@ public class InicioSesion extends HttpServlet {
 		}
 		
 	}
-
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
