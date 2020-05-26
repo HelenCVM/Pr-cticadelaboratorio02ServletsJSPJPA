@@ -29,4 +29,4 @@ Practica 02ServletsJSPJPA
 
 
 
-![](https://github.com/HelenCVM/Pr-cticadelaboratorio02ServletsJSPJPA/blob/master/8.jpg)
+![](https://github.com/HelenCVM/Pr-cticadelaboratorio02ServletsJSPJPA/blob/master/9.jpg)
