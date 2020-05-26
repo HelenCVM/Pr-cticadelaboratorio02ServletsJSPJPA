@@ -8,14 +8,10 @@
 
 ![](https://github.com/HelenCVM/Pr-cticadelaboratorio02ServletsJSPJPA/new/master/4.jpg)
 
-
 ![](https://github.com/HelenCVM/Pr-cticadelaboratorio02ServletsJSPJPA/new/master/5.jpg)
-
 
 ![](https://github.com/HelenCVM/Pr-cticadelaboratorio02ServletsJSPJPA/new/master/6.jpg)
 
-
 ![](https://github.com/HelenCVM/Pr-cticadelaboratorio02ServletsJSPJPA/new/master/7.jpg)
-
 
 ![](https://github.com/HelenCVM/Pr-cticadelaboratorio02ServletsJSPJPA/new/master/8.jpg)
